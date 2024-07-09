@@ -1,0 +1,92 @@
+html, body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+#bg {
+    background-image: url("https://ar.painting-planet.com/images/image264_0.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(2px);
+    z-index: -99;
+}
+
+.wrapper {
+    z-index: 1;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: translate(-50%, -50%);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 0 20px white;
+    padding-bottom: 20px;
+}
+
+.center {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px black;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.h1 {
+    display: inline-block;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 12px 0;
+}
+
+.text {
+  text-align: center;  
+}
+
+.mt-50px {
+    margin-top: 50px;
+}
+
+.col2 {
+    width: calc(100% / 2 - 1%);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mt-5px {
+    margin-top: 5px;
+}
+
+.input {
+    width: 175px;
+    height: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: left 3px;
+    padding: right 3px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    
+}
+
+.btn {
+    background-color: gray;
+    padding: 7px 14px;
+    border: 1px solid gray;
+    border: 3px;
+    border-radius: 3px;
+    color: white;
+
+}
